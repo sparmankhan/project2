@@ -1,0 +1,264 @@
+body{
+    background-color: #ddd;
+}
+
+.nav-wrap {
+    align-items: center;
+}
+
+section.navbar-area {
+    background: #FFF9F3;
+    padding-bottom: 30px;
+}
+
+
+.nav-area a:hover {
+    text-decoration: solid;
+    color: #FFC178;
+}
+
+
+.nav-area ul li {
+    display: inline-block;
+    margin: 0px 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-area a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-area {
+    align-items: center;
+    text-align: center;
+}
+
+
+.nav-area a.btn {
+    color: #ffc178;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+/* Navbar */
+
+/* Hero area */
+
+
+
+
+section.hero-area {
+    background-image: url(hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.card-text:last-child {
+    color: #fff;
+    margin-bottom: -90px;
+    width: 100%;
+    margin-top: 67px;
+}
+
+
+.hero-text {
+    position: absolute;
+    align-items: center;
+    text-align: left;
+    top: 96px;
+    width: 35%;
+}
+
+
+a.hreo-btn {
+    padding: 11px 20px;
+    background: #FFC178;
+    border-radius: 30px;
+    color: #fff;
+}
+
+/* Hero are */
+
+
+/* Card */
+
+section.card-area {
+    margin: 50px 0;
+}
+
+.card-text {
+    align-items: center;
+    text-align: center;
+    width: 56%;
+    height: 136px;
+    margin: 0 auto;
+}
+
+.card-items img {
+    position: relative;
+    width: 135px;
+    align-items: center;
+    margin: 0 auto;
+    height: 156px;
+    text-align: center;
+}
+
+.card-items {
+    background: #EE6B37;
+}
+
+.card-img {
+    text-align: center;
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+}
+
+
+
+/* Video area */
+
+
+.video-img img {
+    position: relative;
+    width: 379px;
+    height: 352px;
+    border: 18px solid white;
+    border-radius: 50%;
+}
+
+.video-icon i {
+    position: absolute;
+    top: 45%;
+    align-items: center;
+    color: WHITE;
+    left: 46%;
+    font-size: 39px;
+}
+
+.img-wrap {
+    text-align: center;
+}
+
+.counter-area h3 {
+    font-weight: 700;
+}
+
+.counter-area p.a1, h3.a1{
+    color: #FFBA00;
+}
+.counter-area p.b2, h3.b2{
+    color: #FF5F72;
+}
+.counter-area p.c3, h3.c3{
+    color: #43CB83;
+}
+/* Video area */
+
+/* Blog */
+
+section.blog-area {
+    margin: 76px 0;
+}
+
+.blog-area h3 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+
+
+.blog-items {
+    background: #fff;
+    padding-bottom: 2px;
+}
+
+
+.blog-title {
+    padding-left: 10px;
+}
+
+.blog-snippet {
+    padding-left: 10px;
+}
+
+section.blog-area .row {
+    margin: 28px 0;
+}
+
+
+/* Blog */
+
+/* Footer */
+footer.footer-area {
+    background: #252C3A;
+}
+
+footer.footer-area p {
+    color: #aaa;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+footer.footer-area h6 {
+    color: #fff;
+}
+
+
+footer.footer-area i {
+    color: #fff;
+}
+
+footer.footer-area {
+    padding: 50px 0;
+}
+
+
+footer.footer-area ul li {
+    list-style: none;
+    color: #aaa;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+footer.footer-area b {
+    color: #aaa;
+    font-weight: 200;
+    line-height: 39px;
+}
+
+footer.footer-area a {
+    color: #fff;
+    width: 43%;
+    background: #aaa;
+    height: 100%;
+    font-size: 13px;
+    padding: 8px 0;
+    border-radius: 0;
+}
+
+.imput {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imput input {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 6px;
+    height: 100%;
+}
+/* Footer */
